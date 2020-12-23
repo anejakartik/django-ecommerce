@@ -19,7 +19,7 @@ data['merchant_id'] = r;
 data['accountType'] = j;
 console.log(data);
 $.ajax({
-       url:"http://127.0.0.1:8000/product-track/",
+       url:"http://34.215.112.239:8000/product-track/",
        type:"GET",
        data:data,
 
